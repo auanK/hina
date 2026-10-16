@@ -4,17 +4,18 @@ Minimal reverse-engineering notes for the M-VAVE TANK-G communication protocol.
 
 ## Device
 
-* Model:
-* Firmware:
-* VID:
-* PID:
+- Model: M-VAVE TANK-G
+- Firmware: Unknown
+- VID: 0x4C4A
+- PID: 0xC755
 
 ## Transport
 
-* USB interface:
-* Endpoint IN:
-* Endpoint OUT:
-* Transfer type:
+- USB interface: 4 (MIDI Streaming)
+- Endpoint IN: 0x84
+- Endpoint OUT: 0x04
+- Transfer type: Bulk
+- Max packet size: 64 bytes
 
 ## Environment
 
@@ -49,7 +50,8 @@ TANK-G -> HOST
 
 ## Findings
 
-No protocol behavior confirmed yet.
+- The device exposes a bidirectional USB-MIDI interface.
+- M-EFCS communication protocol is not yet identified.
 
 ## Unknowns
 

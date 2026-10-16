@@ -28,3 +28,4 @@ rustc-ice-*.txt
 /target
 
 desktop.ini
+repomix-output.xml
